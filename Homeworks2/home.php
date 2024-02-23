@@ -8,7 +8,7 @@ if (isset($_SESSION["username"])) {
         echo "Your username is stored in a cookie: " . $_COOKIE["user"];
     }
 } else {
-    header("Location: login.php");
+    header("Location: index.php");
     exit;
 }
 ?>
